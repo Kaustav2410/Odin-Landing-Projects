@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@600&family=Figtree:wght@600&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.heading{
+    padding: 2rem;
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.heading h1{
+    padding-left: 10rem;
+}
+.Links{
+    list-style: none;
+    padding-right: 10rem;
+}
+.Links{
+    padding-top: .5rem;
+}
+.Links li{
+    display: inline;
+    padding: 1rem;
+}
+.Links a{
+    text-decoration:none;
+    color: white;
+}
+.section-first{
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 2rem;
+}
+.first-text h1{
+    font-size: 48px ;
+}
+.first-text{
+    margin: 2rem 10rem 2rem 0rem;
+
+}
+.first-text p{
+    padding: 1rem 1rem 1rem 0rem;
+    font-family: 'DynaPuff';
+}
+.first-button {
+    padding: .5rem 2rem;
+    border-radius: 5px;
+    background-color: #3883F6;
+    color: white;
+
+}
+.first-img img{
+    width: 20rem;
+    height: auto;
+    border-radius: 10px;
+}
+.section-second{
+    text-align: center;
+}
+.section-second h1{
+    padding: 2rem;
+}
+.second-gallery{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin:2rem 3rem 4rem;
+}
+.gallery p{
+    padding: 1rem ;
+    font-family: 'DynaPuff', sans-serif;
+}
+.second-gallery img{
+        width: 60%;
+        height: auto;
+        border-radius: 10px;
+}
+@media only screen and (max-width:1000px){
+    .second-gallery{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.section-third{
+    background-color: #E5E7EB;
+    padding: 5rem 8rem;
+    text-align: center;
+}
+.third-text{
+    margin: 3rem 20rem;
+}
+.third-quote{
+    position: relative;
+    font-size: 2rem;
+    font-family: 'DynaPuff' ,sans-serif;
+}
+.third-quote-said{
+    position: absolute;
+    right:30rem;
+    padding-top: 1rem;
+    font-size: 1.5rem;
+    font-family: 'Figtree', sans-serif;
+}
+.section-fourth{
+    margin: 3rem auto;
+    background-color: #3883F6;
+    color: white;
+    width:50%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+}
+.fourth-text{
+    font-family: 'DynaPuff' ,sans-serif;
+    margin-right: 5rem;
+}
+.fourth-button button{
+    border-radius: 5px;
+    background-color: #3883F6;
+    border: 3px solid #E5E7EB;
+    padding: .3rem 1.5rem;
+    color: #E5E7EB;
+    font-size: 1rem;
+    font-family: 'Figtree', sans-serif;
+}
+.footer{
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    font-size: 1.5rem;
+}
